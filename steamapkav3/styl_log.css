@@ -1,0 +1,127 @@
+body {
+    background-image: url('steamtlo.png');
+    font-family: arial;
+    color: white;
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+header {
+    background-color: #171d25;
+    text-align: center;
+}
+
+#log {
+    font-size: 30px;
+    text-align: left;
+    padding-left: 35%;
+}
+
+#logowanie {
+    font-size: 10px;
+    background-color: #171d25;
+    margin-left: 28%;
+    margin-right: 28%;
+    height: 420px;
+}
+
+#pasy {
+    color: white;
+    padding: 50px;
+    font-size: 12px;
+    input {
+    width: 450px;
+    height: 40px;
+    text-align: left;
+    background-color: #32353c;
+    border: none;
+    }
+}
+
+#pasy1 {
+    color: #1999ff;
+}
+
+#pasy2 {
+    color: #afafaf;
+}
+
+#butlog {
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 50px;
+
+    input {
+        position: relative;
+    background: linear-gradient(90deg, #06BFFF 0%, #2D73FF 100%);
+    border-radius: 2px;
+    border: none;
+    outline: none;
+    padding: 12px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: inherit;
+    text-align: center;
+    cursor: pointer;
+    width: 250px;
+    }
+
+    input:hover {
+    background: linear-gradient(90deg, #06BFFF 30%, #2D73FF 100%);
+}
+}
+
+#rejestracja {
+    font-size: 30px;
+}
+
+footer {
+    text-align: center;
+    background-color: #171d25;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 150px;
+
+    input {
+        position: relative;
+    background: linear-gradient(90deg, #06BFFF 0%, #2D73FF 100%);
+    border-radius: 2px;
+    border: none;
+    outline: none;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: inherit;
+    text-align: center;
+    cursor: pointer;
+    height: 30px;
+    width: 150px;
+    }
+
+    input:hover {
+    background: linear-gradient(90deg, #06BFFF 30%, #2D73FF 100%);
+    }
+}
+
+#pomocy {
+    color: #afafaf;
+    font-size: 12px;
+    text-decoration: underline;
+    cursor: pointer;
+    padding-left: 335px;
+}
+
+#pomocy:hover {
+    color: #bab8b8;
+}
+
+#qrcode {
+    position: absolute;
+    padding-left: 600px;
+    color: #1999ff;
+    font-size: 12px;
+}
