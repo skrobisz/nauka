@@ -1,0 +1,152 @@
+body {
+    background-image: url('steamtlo.png');
+    font-family: arial;
+    color: white;
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+header {
+    background-color: #171d25;
+    text-align: center;
+}
+
+#log {
+    font-size: 30px;
+    text-align: left;
+    padding-left: 35%;
+}
+
+#logowanie {
+    font-size: 10px;
+    background-color: #171d25;
+    margin: 0 25% 0 25%;
+    height: 50%;
+}
+
+#pasy {
+    color: white;
+    padding: 5% 0 0 5%;
+    font-size: 12px;
+    input {
+    width: 60%;
+    height: 40px;
+    text-align: left;
+    background-color: #32353c;
+    border: none;
+    }
+}
+
+#pasy1 {
+    color: #1999ff;
+}
+
+#pasy2 {
+    color: #afafaf;
+}
+
+#butlog {
+    padding: 3% 0 3% 12%;
+    input {
+        position: relative;
+    background: linear-gradient(90deg, #06BFFF 0%, #2D73FF 100%);
+    border-radius: 2px;
+    border: none;
+    outline: none;
+    padding: 12px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: inherit;
+    text-align: center;
+    cursor: pointer;
+    width: 50%;
+    }
+
+    input:hover {
+    background: linear-gradient(90deg, #06BFFF 30%, #2D73FF 100%);
+}
+}
+
+#logpowiadomienie {
+    color: #c15755;
+    padding: 3% 0 0 14%;
+    font-size: 12px;
+}
+
+#rejestracja {
+    font-size: 30px;
+}
+
+footer {
+    text-align: center;
+    background-color: #171d25;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 50px;
+    input {
+        position: relative;
+    background: linear-gradient(90deg, #06BFFF 0%, #2D73FF 100%);
+    border-radius: 2px;
+    border: none;
+    outline: none;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: inherit;
+    text-align: center;
+    cursor: pointer;
+    height: 30px;
+    width: 150px;
+    }
+    input:hover {
+    background: linear-gradient(90deg, #06BFFF 30%, #2D73FF 100%);
+    }
+}
+
+#pomocy {
+    color: #afafaf;
+    font-size: 12px;
+    text-decoration: underline;
+    cursor: pointer;
+    padding: 0 0 0 23%;
+}
+
+#pomocy:hover {
+    color: #bab8b8;
+}
+
+#qrcode {
+    position: absolute;
+    padding: 1% 0 0 34%;
+}
+
+#nadqr {
+    color: #1999ff;
+    font-size: 12px;
+}
+
+#linkqr {
+    color: #afafaf;
+    cursor: pointer;
+}
+
+#podqr {
+    color: #afafaf;
+    font-size: 12px;
+}
+
+#stopkalewo {
+
+}
+
+#stopkaprawolink {
+    
+}
+
+#stopkaprawo {
+
+}
