@@ -1,0 +1,195 @@
+body {
+    font-family: arial;
+    color: white;
+    background: radial-gradient(rgba(24, 26, 33, 0) 0%, #181A21 100%) fixed no-repeat, url( 'https://store.fastly.steamstatic.com/public/shared/images/joinsteam/new_login_bg_strong_mask.jpg' ) center top no-repeat, #181A21;
+}
+
+header {
+    background-color: #171d25;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+
+    img {
+        padding-left: 20%;
+    }
+
+    a {
+        color: #dcdedf;
+        font-size: 16px;
+        font-weight: 500;
+        text-decoration: none;
+        margin: 1% 0 0 4%;
+    }
+
+    a:hover {
+        color: white;
+    }
+    
+}
+
+#headerlog {
+    position: absolute;
+    top: 0%;
+    right: 10%;
+    width: 7%;
+    padding-top: 1%;
+}
+
+#log {
+    font-size: 30px;
+    text-align: left;
+    margin: 10% 0 2% 26% ;
+    font-weight: 800;
+}
+
+#logowanie {
+    font-size: 10px;
+    background-color: #171d25;
+    margin: 0% 25% 0% 25%;
+    height: 100%;
+}
+
+#pasy {
+    color: white;
+    padding: 5% 0 0 5%;
+    font-size: 12px;
+    input {
+    width: 60%;
+    height: 40px;
+    text-align: left;
+    color: white;
+    background-color: #32353c;
+    border: none;
+    }
+}
+
+#pasy1 {
+    color: #1999ff;
+    font-weight: 500;
+}
+
+#pasy2 {
+    color: #afafaf;
+    font-weight: 500;
+}
+
+#butlog {
+    padding: 3% 0 3% 12%;
+    input {
+        position: relative;
+    background: linear-gradient(90deg, #06BFFF 0%, #2D73FF 100%);
+    border-radius: 2px;
+    border: none;
+    outline: none;
+    padding: 12px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: inherit;
+    text-align: center;
+    cursor: pointer;
+    width: 50%;
+    }
+
+    input:hover {
+    background: linear-gradient(90deg, #06BFFF 30%, #2D73FF 100%);
+}
+}
+
+#logpowiadomienie {
+    color: #c15755;
+    padding: 3% 0 0 16%;
+    font-size: 12px;
+}
+
+#rejestracja {
+    font-size: 30px;
+}
+
+#stopkaprawolink {
+    color: #b8b6b4;
+}
+
+#stopkaprawolink:hover {
+    color: white;
+    text-decoration: none;
+}
+
+#pierwszyraz {
+    font-weight: 800;
+    font-size: 20px;
+}
+
+#pomocydiv {
+    padding: 0 0 1% 0;
+}
+
+#pomocy {
+    color: #afafaf;
+    font-size: 12px;
+    text-decoration: underline;
+    cursor: pointer;
+    padding: 0 0 0 25%;
+}
+
+#pomocy:hover {
+    color: #bab8b8;
+}
+
+#qrcode {
+    float: right;
+    width: 35%;
+    padding: 3% 0 0 0;
+}
+
+#nadqr {
+    color: #1999ff;
+    font-size: 12px;
+    width: 60%;
+}
+
+#linkqr {
+    color: #afafaf;
+    cursor: pointer;
+}
+
+#podqr {
+    color: #afafaf;
+    font-size: 12px;
+    text-align: center;
+    width: 60%;
+}
+
+footer {
+    text-align: center;
+    background-color: #171d25;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 15%;
+    input {
+        position: relative;
+    background: linear-gradient(90deg, #06BFFF 0%, #2D73FF 100%);
+    border-radius: 2px;
+    border: none;
+    outline: none;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: inherit;
+    text-align: center;
+    cursor: pointer;
+    height: 30px;
+    width: 150px;
+    }
+    input:hover {
+    background: linear-gradient(90deg, #06BFFF 30%, #2D73FF 100%);
+    }
+}
+
+#footerparagraf {
+    font-size: 8px;
+}
