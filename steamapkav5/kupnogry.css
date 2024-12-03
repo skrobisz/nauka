@@ -1,0 +1,38 @@
+body {
+    font-family: arial;
+    color: white;
+    background: radial-gradient(rgba(24, 26, 33, 0) 0%, #181A21 100%) fixed no-repeat, url( 'https://store.fastly.steamstatic.com/public/shared/images/joinsteam/new_login_bg_strong_mask.jpg' ) center top no-repeat, #181A21;
+}
+
+header {
+    background-color: #171d25;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+
+    img {
+        padding-left: 20%;
+    }
+
+    a {
+        color: #dcdedf;
+        font-size: 16px;
+        font-weight: 500;
+        text-decoration: none;
+        margin: 1% 0 0 4%;
+    }
+
+    a:hover {
+        color: white;
+    }
+    
+}
+
+#headerlog {
+    position: absolute;
+    top: 0%;
+    right: 10%;
+    width: 7%;
+    padding-top: 1%;
+}
