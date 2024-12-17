@@ -1,0 +1,96 @@
+body {
+    font-family: arial;
+    color: white;
+    background: radial-gradient(rgba(24, 26, 33, 0) 0%, #181A21 100%) fixed no-repeat, url( 'https://store.fastly.steamstatic.com/public/shared/images/joinsteam/new_login_bg_strong_mask.jpg' ) center top no-repeat, #181A21;
+}
+
+header {
+    background-color: #171d25;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+
+    img {
+        padding-left: 20%;
+    }
+
+    a {
+        color: #dcdedf;
+        font-size: 16px;
+        font-weight: 500;
+        text-decoration: none;
+        margin: 1% 0 0 4%;
+    }
+
+    a:hover {
+        color: white;
+    }
+    
+}
+
+#headerlog {
+    position: absolute;
+    top: 0%;
+    right: 10%;
+    width: 20%;
+    padding-top: 1%;
+}
+
+#rejestracja {
+    font-size: 14px;
+    color: #b8b6b4;
+    padding-left: 25%;
+    input {
+  background: #32353C;
+  border-radius: 3px;
+  color: #E9E9E9;
+  padding: 1.5% 0 0 0;
+  display: block;
+  box-shadow: none;
+  border: none;
+  width: 30%;
+  transition: border ease-in-out .5s;
+  font-family: "Motiva Sans", Sans-serif;
+  font-weight: normal;
+    }
+}
+
+#zaloguj {
+    padding-left: 25%;
+    input {
+    position: relative;
+    background: linear-gradient(90deg, #06BFFF 0%, #2D73FF 100%);
+    border-radius: 2px;
+    border: none;
+    outline: none;
+    padding: 12px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: inherit;
+    text-align: center;
+    cursor: pointer;
+    width: 12%;
+    }
+}
+
+#utworz {
+    font-size: 30px;
+    text-align: left;
+    margin: 10% 0 2% 26% ;
+    font-weight: 200;
+    letter-spacing: 2px;
+}
+
+#umowa {
+    width: 50%;
+    height: 500px;
+    overflow: scroll;
+    ol {
+        color: white;
+    }
+    ol:hover {
+        color: blue;
+    }
+}
